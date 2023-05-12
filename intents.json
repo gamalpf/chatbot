@@ -1,0 +1,143 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Buen día",
+        "¡Hola!",
+        "¿Cómo estás?"
+      ],
+      "responses": [
+        "Hola, ¿en qué puedo ayudarte?",
+        "¡Bienvenido! ¿En qué puedo asistirte?",
+        "Hola, ¿en qué puedo servirte hoy?",
+        "Hola, ¿en qué puedo ayudarte con la venta de autopartes?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Gracias",
+        "¡Adiós!",
+        "Hasta luego",
+        "Nos vemos"
+      ],
+      "responses": [
+        "¡Gracias por visitarnos! ¡Hasta pronto!",
+        "¡Gracias por comunicarte con nosotros! ¡Hasta luego!",
+        "¡Adiós! ¡Que tengas un buen día!",
+        "¡Hasta la próxima! ¡Que tengas un excelente día!"
+      ]
+    },
+    {
+      "tag": "autopartes",
+      "patterns": [
+        "¿Qué tipo de autopartes venden?",
+        "Necesito una batería",
+        "Quiero cambiar mis frenos",
+        "Tienen filtros de aire",
+        "Busco un par de llantas nuevas",
+        "¿Venden repuestos para mi modelo de auto?"
+      ],
+      "responses": [
+        "Vendemos todo tipo de autopartes para diferentes marcas y modelos de vehículos.",
+        "Tenemos una amplia selección de baterías para vehículos de distintas marcas.",
+        "¡Claro! Podemos ayudarte a reemplazar tus frenos con repuestos de alta calidad.",
+        "Sí, tenemos una variedad de filtros de aire para diferentes modelos de vehículos.",
+        "Tenemos llantas para diferentes modelos y tamaños de ruedas. ¿Podrías proporcionarnos el modelo de tu vehículo para poder ayudarte mejor?",
+        "¡Por supuesto! Proporciónanos el modelo de tu auto y podremos ayudarte a encontrar los repuestos que necesitas."
+      ]
+    },
+    {
+      "tag": "compra",
+      "patterns": [
+        "¿Cómo hago una compra?",
+        "¿Tienen envío a domicilio?",
+        "¿Cuáles son sus formas de pago?",
+        "Quiero comprar una batería",
+        "Necesito que me envíen una llanta",
+        "¿Puedo pagar con tarjeta de crédito?"
+      ],
+      "responses": [
+        "Para realizar una compra, puedes visitar nuestra tienda en línea o comunicarte con nosotros para realizar la compra por teléfono.",
+        "Sí, ofrecemos envío a domicilio. ¿En qué ciudad te encuentras?",
+        "Aceptamos diferentes formas de pago, como tarjeta de crédito, transferencia bancaria y pago en efectivo en nuestra tienda física.",
+        "Genial, podemos ayudarte a elegir la batería correcta para tu vehículo y procesar tu compra.",
+        "¡Por supuesto! Proporcionanos tu dirección y modelo de vehículo para enviarte la llanta correcta.",
+        "Sí, aceptamos tarjetas de crédito como forma de pago."
+      ]
+    },
+    {
+      "tag": "horarios",
+"patterns": [
+"¿Cuáles son sus horarios de atención?",
+"¿En qué horario están abiertos?",
+"¿A qué hora cierran?"
+],
+"responses": [
+"Nuestros horarios de atención son de lunes a viernes de 9:00 am a 6:00 pm y los sábados de 9:00 am a 1:00 pm.",
+"Estamos abiertos de lunes a viernes de 9:00 am a 6:00 pm y los sábados de 9:00 am a 1:00 pm.",
+"Cerramos a las 6:00 pm de lunes a viernes y los sábados a la 1:00 pm."
+]
+},
+{
+"tag": "ubicacion",
+"patterns": [
+"¿Dónde están ubicados?",
+"¿Cuál es su dirección?",
+"¿Cómo llego a su tienda?"
+],
+"responses": [
+"Estamos ubicados en la Avenida Principal número 123 en el centro de la ciudad. ¡Esperamos tu visita!",
+"Nuestra dirección es Avenida Principal número 123 en el centro de la ciudad. ¡Te esperamos!",
+"Estamos ubicados en el centro de la ciudad, en la Avenida Principal número 123. ¡Ven a visitarnos!"
+]
+},
+{
+"tag": "contacto",
+"patterns": [
+"¿Cuál es su número de teléfono?",
+"¿Cómo puedo contactarlos?",
+"¿Tienen un correo electrónico?"
+],
+"responses": [
+"Nuestro número de teléfono es 555-1234. También puedes contactarnos por correo electrónico a contacto@empresaautopartes.com",
+"Puedes contactarnos por teléfono al 555-1234 o por correo electrónico a contacto@empresaautopartes.com. ¡Estamos para ayudarte!",
+"Si necesitas contactarnos, puedes llamar al 555-1234 o escribirnos a contacto@empresaautopartes.com"
+]
+},
+{
+"tag": "existencia",
+"patterns": [
+"¿Tienen en existencia la pieza que busco?",
+"¿Tienen disponibles las llantas que necesito?",
+"¿Tienen la batería que requiero en stock?"
+],
+"responses": [
+"Te recomendamos verificar nuestra tienda en línea para conocer la disponibilidad de las piezas que necesitas. También puedes comunicarte con nosotros para consultar la disponibilidad.",
+"Para conocer la disponibilidad de las llantas que necesitas, te invitamos a visitar nuestra tienda en línea o comunicarte con nosotros.",
+"Te recomendamos visitar nuestra tienda en línea o contactarnos para conocer la disponibilidad de la batería que requieres. ¡Estamos para ayudarte!"
+]
+},
+{
+"tag": "cancelacion",
+"patterns": [
+"¿Puedo cancelar mi pedido?",
+"¿Cómo puedo cancelar mi orden de compra?",
+"¿Cuál es el proceso para cancelar una compra?"
+],
+"responses": [
+"Si deseas cancelar tu pedido, por favor comunícate con nosotros lo antes posible para verificar si es posible cancelarlo.",
+"Para cancelar tu orden de compra, por favor comunícate con nosotros lo antes posible para revisar si es posible cancelarla.",
+"El proceso de cancelación de una orden de compra puede variar según el estado en el que se encuentre tu pedido. Te recomendamos que nos contactes directamente para proporcionarte la mejor solución posible.",
+"Si deseas cancelar tu compra, comunícate con nosotros lo antes posible para que podamos ayudarte a realizar el proceso de cancelación y proporcionarte un reembolso si es posible.",
+"Lamentamos escuchar que deseas cancelar tu compra. Por favor, ponte en contacto con nosotros lo antes posible para que podamos ayudarte a procesar la cancelación y proporcionarte cualquier información adicional que puedas necesitar."]
+      }
+  ]
+}
+
+
+
+
+
